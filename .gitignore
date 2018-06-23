@@ -35,3 +35,4 @@ bin
 *.log
 *.swp
 *.bak
+.README.md.html
