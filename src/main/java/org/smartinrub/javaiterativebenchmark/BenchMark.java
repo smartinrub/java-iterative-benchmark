@@ -43,8 +43,8 @@ public class BenchMark {
 		return factorial(1, num);
 	}
 
-	public long factorial(long result, long val) {
-		return val == 1 ? result : factorial(result * val, val - 1);
+	public long factorial(long accumulator, long val) {
+		return val == 1 ? accumulator : factorial(accumulator * val, val - 1);
 	}
 	
 	public long factorialStream(long number) {
