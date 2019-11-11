@@ -8,10 +8,10 @@ java -jar target/benchmar.jar
 
 Benchmark  | Score
 ------------- | -------------
-for Loop  | 12.409 ns/op
-Tail Recursion  | 16.570 ns/op
-Recursion  | 18.575 ns/op
-stream  | 57.499 ns/op
+for Loop  |  8.437 ns/op
+Tail Recursion  | 15.500 ns/op
+Recursion  | 16.887 ns/op
+stream  | 76.064  ns/op
 
 ## Set up
 
