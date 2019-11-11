@@ -13,10 +13,10 @@ import org.openjdk.jmh.annotations.Warmup;
 
 
 @Fork(warmups = 2, value = 2)
-@Warmup(iterations = 3, time = 2, timeUnit = TimeUnit.SECONDS)
+@Warmup(iterations = 3, time = 2)
 @BenchmarkMode(value = Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
-@Measurement(iterations = 3, time = 2, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 3, time = 2)
 public class BenchMark {
 
 	@Benchmark

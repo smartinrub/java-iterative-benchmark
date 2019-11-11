@@ -15,6 +15,6 @@ stream  | 57.499 ns/op
 
 ## Set up
 
-- CPU: intel i5-5250U
-- OS: Ubuntu 18
+- CPU: 1.4GHz quad-core Intel Core i5, Turbo Boost up to 3.9GHz
+- OS: macOS Catalina
 - Factorial: 20
